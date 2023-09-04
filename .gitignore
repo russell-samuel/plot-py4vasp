@@ -1,3 +1,15 @@
+# Web drive log
+# firefox
+geckodrive.log  
+
+# Test file
+/test-*
+
+# MathJax, user can install this by their own
+/mj-tmp
+
+#### The below are Python .gitignore template
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
