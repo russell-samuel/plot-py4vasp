@@ -1,4 +1,4 @@
-# plot_py4vasp
+# plot-py4vasp
 A re-capsuled version of [py4vasp](https://github.com/vasp-dev/py4vasp) for specific application 
 
 ## How to Use
@@ -6,7 +6,7 @@ A re-capsuled version of [py4vasp](https://github.com/vasp-dev/py4vasp) for spec
 One can install this by
 
 ```bash
-git clone https://github.com/plotly/plotly.py
+git clone hhttps://github.com/russell-samuel/plot-py4vasp
 ```
 
 then use this module simply via modifing `user_one.py` 
@@ -34,7 +34,7 @@ You can install MathJax by clone MathJax project to the root directory (see deta
 
 ```bash
 # go to root directory
-cd path/to/plot_py4vasp
+cd path/to/this_project
 
 # clone mathjax project 
 git clone https://github.com/mathjax/MathJax
@@ -45,5 +45,5 @@ then you can invoke MathJax by:
 ```python
 from vasp_h5 import Result
 result = Result(path_to_h5file='path/to/vasp.h5', mathjax_path= './mj-tmp/es5/tex-svg.js')  
-# using tex-svg.js in this example, one can change to a desired one
+# using tex-svg.js in this example, you can change to a desired one
 ```
